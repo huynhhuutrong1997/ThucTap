@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>responsive_admin</id>
+    <version>1.0.4</version>
+    <priority>4294967293</priority>
+    <default_language>en</default_language>
+    <compatibility>
+        <core_version>
+            <min>4.7.1</min>
+            <max>5.0.0</max>
+        </core_version>
+    </compatibility>
+</addon>

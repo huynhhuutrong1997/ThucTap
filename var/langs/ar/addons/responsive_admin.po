@@ -1,0 +1,34 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Arabic\n"
+"Language: ar_SA\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ar\n"
+"X-Crowdin-File: /release-4.7.4/addons/responsive_admin.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2018-05-07 06:00-0400\n"
+
+msgctxt "Addons::name::responsive_admin"
+msgid "Responsive Admin Panel [Beta]"
+msgstr ""
+
+msgctxt "Addons::description::responsive_admin"
+msgid "Makes your Administration panel responsive and gives it a new color palette and a modern look. Backward compatibility with all add-ons preserved."
+msgstr ""
+
+msgctxt "Languages::responsive_admin.editing_order_invoice"
+msgid "Editing invoice for order"
+msgstr ""
+
+msgctxt "Languages::responsive_admin.email_order_invoice_subject"
+msgid "[company_name]: Invoice for order"
+msgstr ""
+
+msgctxt "Languages::easter.coming_soon_message"
+msgid "Uh-oh, it looks like this feature doesn't work yet! But we're on the job and will try to get it working soon."
+msgstr ""
+

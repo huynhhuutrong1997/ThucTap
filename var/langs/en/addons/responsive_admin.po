@@ -1,0 +1,25 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::responsive_admin"
+msgid "Responsive Admin Panel [Beta]"
+msgstr "Responsive Admin Panel [Beta]"
+
+msgctxt "Addons::description::responsive_admin"
+msgid "Makes your Administration panel responsive and gives it a new color palette and a modern look. Backward compatibility with all add-ons preserved."
+msgstr "Makes your Administration panel responsive and gives it a new color palette and a modern look. Backward compatibility with all add-ons preserved."
+
+msgctxt "Languages::responsive_admin.editing_order_invoice"
+msgid "Editing invoice for order"
+msgstr "Editing invoice for order"
+
+msgctxt "Languages::responsive_admin.email_order_invoice_subject"
+msgid "[company_name]: Invoice for order"
+msgstr "[company_name]: Invoice for order"
+
+msgctxt "Languages::easter.coming_soon_message"
+msgid "Uh-oh, it looks like this feature doesn't work yet! But we're on the job and will try to get it working soon."
+msgstr "Uh-oh, it looks like this feature doesn't work yet! But we're on the job and will try to get it working soon."

@@ -1,0 +1,229 @@
+/* ==========================================================================
+Select 2
+========================================================================== */
+.select2-container.select2-container--open .select2-dropdown {
+    z-index: 1200;
+}
+.select2-search--dropdown .select2-search__field {
+    padding: 0 10px;
+    min-height: 30px;
+}
+
+.select2-container--default .select2-search--dropdown .select2-search__field {
+    border-color: rgba(82, 168, 236, 0.8);
+}
+
+.select2-container .select2-selection--single {
+    height: 32px;
+}
+
+.select2-container--default .select2-selection--single,
+.select2-container--default .select2-selection--multiple,
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+    border-color: #CCC;
+}
+
+.select2-container .select2-selection--multiple {
+    min-height: 32px;
+}
+
+.select2-container .select2-search--inline .select2-search__field {
+    border: 0px;
+    .box-shadow(none);
+    font-size: 13px;
+    margin-top: 0;
+}
+
+.select2-container .select2-search.select2-search--dropdown {
+    margin: 0;
+}
+
+.select2-container .select2-search--dropdown .select2-search__field {
+    margin: 0;
+}
+
+.select2-container .select2-results .select2-results__options .select2-results__option img {
+    margin-right: 10px;
+}
+
+.select2-container .select2-results__option.loading-results,
+.select2-container .select2-results .select2-results__options .option.load-more {
+    padding: 6px;
+    color: #999;
+}
+
+.select2-container--default .select2-results>.select2-results__options {
+    max-height: 320px;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] .table-select2-column-email,
+.select2-container--default .select2-results__option--highlighted[aria-selected] .table-select2-column-phone,
+.select2-container--default .select2-results__option--highlighted[aria-selected] .table-select2-column-product-code,
+.select2-container--default .select2-results__option--highlighted[aria-selected] .table-select2-column-price {
+    color: #fff;
+}
+
+// Select2 main container
+.object-selector {
+    margin-bottom: 15px;
+    display: inline-block;
+    font-size: 0;
+
+    input {
+        display: inline-block;
+        position: relative;
+    }
+    .btn {
+        margin-left: -1px;
+    }
+
+    &--half-width {
+        width: 50%;
+
+        .select2-container {
+            width: 100% !important;
+        }
+    }
+
+    @media (max-width: 1024px) {
+        &--mobile-full-width {
+            width: 100%;
+
+            .select2-container {
+                width: 100% !important;
+            }
+        }
+    }
+}
+
+// Order managing
+.object-product-add {
+    display: block;
+    
+    select {
+        display: block;
+        width: 100%;
+    }
+}
+
+.object-customer-add,
+.object-product-add {
+    position: relative;
+
+    .btn {
+        position: absolute;
+        z-index: 1;
+        right: 0;
+    }
+}
+
+.object-product-add .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+	color: white;
+}
+
+.object-product-add .select2-container--default .select2-selection--multiple .select2-selection__choice {
+	border: 0px;
+	background-color: white;
+}
+
+.object-product-add .select2-container .select2-selection--multiple .select2-selection__rendered {
+	display: list-item;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	height: 25px;
+}
+.object-customer-add .select2-container .select2-selection--multiple .select2-selection__rendered {
+	display: list-item;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	height: 25px;
+}
+
+.truncate-product-name {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+    max-width: 200px;
+}
+
+.table-select2 {
+	width: 100%;
+}
+
+.table-select2-column-image {
+	width: 10%;
+}
+
+.table-select2-column-name {
+	width: 65%;
+}
+
+.table-select2-column-product-code {
+    width: 15%;
+    text-align: left;
+    font-size: 70%;
+    color: #999;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.table-select2-column-price {
+	width: 10%;
+    text-align: right;
+    color: #999;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.table-select2-no-images {
+	width: 30px;
+	height: 30px;
+}
+
+table.table-select2-customer {
+	width: 100%;
+}
+
+td.table-select2-column-firstname-lastname {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1;
+}
+
+td.table-select2-column-email {
+    color: #999;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1;
+}
+
+td.table-select2-column-phone {
+    color: #999;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1;
+}
+
+.object-customer-add .select2 {
+    max-width: 179px;
+    width: 100% !important;
+}
+
+select#customer_add {
+	width: 179px;
+}
+
+.object-customer-add .select2-selection.select2-selection--multiple {
+	height: 10px;
+}
+
+.object-customer-add .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+	color: #e4e4e4;
+}
